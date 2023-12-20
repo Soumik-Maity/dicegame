@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Gameplay from "./components/Gameplay";
 
 function App() {
-  const [isStarted, setIsStarted] = useState(true);
+  const [isStarted, setIsStarted] = useState(false);
   return (
     <div className="container">
       {isStarted ? <Gameplay /> : <Home setIsStarted={setIsStarted} />}

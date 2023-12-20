@@ -1,6 +1,6 @@
 const ShowRules = () => {
   return (
-    <div class="alert alert-warning" role="alert">
+    <div className="alert alert-warning" role="alert">
       How to play dice game: <br />
       Select any number. <br />
       Click on dice image. <br />

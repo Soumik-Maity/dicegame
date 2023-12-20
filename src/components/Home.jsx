@@ -1,4 +1,5 @@
 import styles from "./Home.module.css";
+
 const Home = ({ setIsStarted }) => {
   return (
     <div className={`${styles.container} `}>
